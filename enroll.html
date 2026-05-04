@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll | Rinex Courses</title>
+    <link rel="stylesheet" href="enroll.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Enroll in Rinex courses including AI, AWS, Full Stack, and Digital Marketing. Start your career today.">
+<meta name="author" content="Nirmal Richard">
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="navbar-left">
+        <strong>Rinex</strong>
+        <span style="font-size:12px; display:block;">Launch Your Tech Career</span>
+    </div>
+    <div class="navbar-right">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="apply.html" class="nav-link">Courses</a>
+    </div>
+</nav>
+
+    <!-- Form Container -->
+    <div class="enroll-container">
+        <form action="https://formspree.io/f/myzpyong" method="POST" class="enroll-form">
+            <h1 class="form-title">Enroll in a Course</h1>
+            <p class="form-subtitle">Please fill in your details to enroll</p>
+
+            <div class="form-group">
+                <label for="name">Student Name</label>
+                <input type="text" name="Student Name" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="roll">Roll Number</label>
+                <input type="text" name="Roll Number" id="roll" required>
+            </div>
+
+            <div class="form-group">
+                <label for="college">College Name</label>
+                <input type="text" name="College Name" id="college" required>
+            </div>
+
+            <div class="form-group">
+                <label for="location">Location</label>
+                <input type="text" name="Location" id="location" required>
+            </div>
+
+            <div class="form-group">
+    <label for="year">Year</label>
+    <select name="Year" id="year" required>
+        <option value="">-- Select Year --</option>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+        <option>3rd Year</option>
+        <option>Final Year</option>
+    </select>
+</div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email" required>
+            </div>
+            <div class="form-group">
+    <label for="phone">Phone Number</label>
+    <input type="tel" name="Phone Number" id="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit number" required>
+</div>
+
+            <div class="form-group">
+                <label for="course">Course</label>
+                <select name="Course" id="course" required>
+                    <option value="">-- Select a Course --</option>
+                    <option value="AI & Machine Learning">AI & Machine Learning</option>
+                    <option value="AWS Cloud Solutions">AWS Cloud Solutions</option>
+                    <option value="Full Stack Development">Full Stack Development</option>
+                    <option value="Digital Marketing Mastery">Digital Marketing Mastery</option>
+                </select>
+            </div>
+
+          <button type="submit" class="submit-btn">
+    Submit Application <i class="fas fa-arrow-right"></i>
+</button>
+<input type="hidden" name="_next" value="thankyou.html">
+        </form>
+        <p style="font-size:14px; color:gray;">
+    ✔ No registration fee • ✔ Certificate included • ✔ Career support
+</p>
+<footer style="text-align:center; margin-top:20px; font-size:14px;">
+    © 2026 Rinex, Richard. All rights reserved.
+</footer>
+    </div>
+
+</body>
+</html>
