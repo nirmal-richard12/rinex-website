@@ -27,8 +27,17 @@ A modern and responsive internship & course platform designed to help students e
 
 ---
 
+## 📸 Preview
+
+### 🏠 Home Page
+![Home](img/preview.png)
+
+### 📚 Courses Section
+![Courses](img/courses.png)
+
+---
+
 ## 👨‍💻 Author
 **Nirmal Richard**  
 🔗 GitHub: https://github.com/nirmal-richard12  
 🔗 LinkedIn: https://www.linkedin.com/in/nirmal-richard12/
-
